@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "sticksecrets",
+  "info": {
+    "singularName": "sticksecret",
+    "pluralName": "sticksecrets",
+    "displayName": "Sticksecret"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "text": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "password": {
+      "type": "string"
+    },
+    "useremail": {
+      "type": "email"
+    }
+  }
+}
